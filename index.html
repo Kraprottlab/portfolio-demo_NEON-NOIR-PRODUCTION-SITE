@@ -1,0 +1,29 @@
+<!DOCTYPE HTML>
+<html lang="ja" dir="ltr" prefix="og: http://ogp.me/ns#" class=>
+  /*ホームページの言語：日本語、dir="ltr" は、HTML の グローバル属性で、要素内のテキストの書字方向を 左から右 (Left-To-Right) に指定するものです。
+英語や日本語など、通常左から右に読む言語で使われます。**OGP（Open Graph Protocol）**は、SNSでWebページをシェアする際に、ページのタイトル、URL、概要、画像などの情報を正しく表示させるための仕組みです。以下の手順でOGPを設定できます：
+prefix属性を使用してOGPの宣言を行います。例：<head prefix="og: https://ogp.me/ns#">.各OGPプロパティ（例：og:title、og:description、og:image）をmetaタグのproperty属性とcontent属性で記述します。 
+OGPを設定することで、SNSでのページの内容が正しく表示され、クリック率が向上します。 OGPを適切に設定することで、ユーザーに訴求力の高い情報を提供できます。Lenis.js というスムーススクロールライブラリの初期化時に付与されるクラス名です。このクラスを使って、スクロール挙動やスタイルを制御*/ 
+  <head>
+    <meta http-equiv="" content=> 
+    /*http-equiv は <meta> 要素の属性で、文書を返したレスポンスに特定の HTTP ヘッダーが含まれているかのように、ブラウザーに処理指示を与えることができます。 メタデータは、ページ全体に適用される文書レベルのメタデータです。meta要素に http-equiv 属性が指定されている場合、content 属性には対応する http-equiv の値を定義します。*/
+    <meta charset="utf-8">
+    <title>DEMO_NEON NOIR PRODUCTION_DEMO</title>
+    <meta name="discription" content="ポートフォリオ用の、存在しないVTuber事務所のサイトです。"> 
+    /*name 要素に名前を付与することでメタデータの種類を定義し、内容をcontent属性で表す。description	文書の概要を記述する。検索エンジンのクローラーに読み取られ、検索結果などにも表示される情報。１つの文書に1つだけ記述できる。Firefox や Opera など一部のブラウザーは、ページをブックマークに追加した際の既定の説明文としても表示される。*/
+    <meta property="og:url" content> 
+    /*property SNSでシェアされたときに表示するサイト情報を指定できる。主にOGP（Open Graph Protocol）設定と言われ、FacebookなどSNSの共有（シェア）効果を高めるために指定する。SNSでの集客に役立つ。（SNSマーケティング）ページでOGPを使用することを宣言するため、head要素にprefix属性を追加する。TOPページであれば「website」、TOP以外のページでは「article」を入力する。og:url	OGPを設定するWEBページのURLを指定する。URLは相対パスではなく絶対パスでの記述をする。*/
+    <meta property="og:type" content>
+    /*og:type	ページの種類を指定します。このタイプを設定することにより、SNS上での表示形式が変わってくる。TOPページの場合は「website」、WEBサイト上の記事ページなど、TOPページ以外には「article」を指定する。*/
+    <meta property="og:tytle" content="PORTFOLIO_NEON NOIR PRODUCTION_This website is fictional. ">
+    /*og:title	ページのtitleを指定する。一般的にはサイトの~と同じ内容を設定しますが、サイト名などのブランド情報を含まないtitleを20文字以内で設定することが好ましいとされている。*/
+    <meta property="og:site name" content="PORTFOLIO_NEON NOIR PRODUCTION_This website is fictional. ">
+    /*og:site_name	ページのサイト名を記述する。サイト名やブランド情報は「og:title」ではなく、この「og:site_neme」に設定する。*/
+    <meta property="og:discription" content="ポートフォリオ用の、存在しないVTuber事務所のサイトです。"> 
+    /*og:description	ページの説明文を指定する。と同様の内容で記述することが多いが、「og:description」での文字数は80~90文字が最適とされている。の文字数は120文字程度なので、内容をそのままを設定してしまうと表示された際に文字が切れてしまう可能性があるため、OGP用に文章を簡略化するとシェアされた際にユーザーに伝わりやすくなる。*/
+    <meta property="og:image" content=>
+    /*og:image	SNS上でシェアされた際に表示させたい画像を絶対パスで指定する。Facebookでは画像サイズを1200×630p、比率で「1.91：1」を推奨している。Facebookでシェアする際、上記で説明した基本設定にプラスして 「fb:app_id」 を設定することができる。サイトやブログの管理者をFacebookに伝えるためのタグ。また、いいねの数やどれくらいの人が見てくれたのか、どの時間帯がユーザーの目にとまりやすいかなど、Facebookからサイトへのトラフィック分析ができるFacebookインサイトを利用できるようになります。*/
+    <meta property="og:locale" content="ja_JP">
+    /*「og:locale」とは、ページの内容が何の言葉で記述されているかを示すために用いるパラメーター。上記コードの中のcontent属性が国コードを表す箇所で、content属性の値を変更するとサポートする言語を変更できます。*/
+    
+  </head>
